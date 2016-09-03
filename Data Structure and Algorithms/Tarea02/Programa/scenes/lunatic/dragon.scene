@@ -1,0 +1,92 @@
+# Test scene
+
+# Background color
+BGC 0 0 0.1
+
+NST
+
+STACK 1
+
+# Camera
+CAM
+# Field of view
+fov 60
+# Position
+pos 0 4 4
+# Target
+tar 0 1 -1
+# Up vector
+up 0 1 0
+# Near clip
+nir 10
+# End of file (Camera)
+eof
+
+# Point Light Count
+PLC 1
+
+# Point Light
+PL
+# Position
+pos 2 7 5
+# Light color
+col 0.8 0.5 0.2
+# End of file (Light)
+eof
+
+# End of file
+
+# Material library file
+mtllib assets/materials/dragon.mtl
+
+# Object count
+OBC 3
+
+
+
+# New Object
+OBJ
+# Use this material for this object
+usemtl Bricks
+# Rotation of this object
+rot 0 0 0
+# Scaling of this object
+sca 20 1 20
+# Translation of this object
+tra 0 0 0
+# File of this object
+obj assets/mesh/lucy_floor.obj
+# End of file (Object)
+eof
+
+# New Object
+OBJ
+# Use this material for this object
+usemtl Bricks
+# Rotation of this object
+rot -90 0 0
+# Scaling of this object
+sca 20 1 20
+# Translation of this object
+tra 0 0 -2
+# File of this object
+obj assets/mesh/lucy_floor.obj
+# End of file (Object)
+eof
+
+
+
+# New Object
+OBJ
+# Use this material for this object
+usemtl Dragon
+# Rotation of this object
+rot 0 -10 0
+# Scaling of this object
+sca 20 20 20
+# Translation of this object
+tra 0 0 0
+# File of this object
+obj assets/mesh/dragon.obj
+# End of file (Object)
+eof

@@ -1,0 +1,69 @@
+# Test scene
+
+# Background color
+BGC 0 0 0
+
+# Camera
+CAM
+# Field of view
+fov 40
+# Position
+pos 100 10 1000
+# Target
+tar 0 325 0
+# Up vector
+up 0 1 0
+# Near clip
+nir 10
+# End of file (Camera)
+eof
+
+# Point Light Count
+PLC 1
+
+# Point Light
+PL
+# Position
+pos 0 950 0
+# Light color
+col 1 1 1
+# End of file (Light)
+eof
+
+# End of file
+
+# Material library file
+mtllib assets/materials/sponza.mtl
+
+# Object count
+OBC 2
+
+# New Object
+OBJ
+# Use this material for this object
+usemtl Sponza
+# Rotation of this object
+rot 0 90 0
+# Scaling of this object
+sca 1 1 1
+# Translation of this object
+tra 0 0 0
+# File of this object
+obj assets/mesh/sponza.obj
+# End of file (Object)
+eof
+
+# New Object
+OBJ
+# Use this material for this object
+usemtl Sky
+# Rotation of this object
+rot 0 0 0
+# Scaling of this object
+sca 1000 1 1000
+# Translation of this object
+tra 0 1500 -500
+# File of this object
+obj assets/mesh/plane_y.obj
+# End of file (Object)
+eof

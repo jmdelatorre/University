@@ -1,0 +1,89 @@
+# Test scene
+
+# Background color
+BGC 0 0 0
+
+# Camera
+CAM
+# Field of view
+fov 40
+# Position
+pos 0 5 40
+# Target
+tar 0 10 0
+# Up vector
+up 0 1 0
+# Near clip
+nir 10
+# End of file (Camera)
+eof
+
+# Point Light Count
+PLC 1
+
+# Point Light
+PL
+# Position
+pos 10 40 20
+# Light color
+col 1 1 1
+
+lat 0.01
+# End of file (Light)
+eof
+
+# End of file
+# EOF
+
+
+# Material library file
+mtllib assets/materials/lucy.mtl
+
+# Object count
+OBC 3
+
+
+# New Object
+OBJ
+# Use this material for this object
+usemtl Floor
+# Rotation of this object
+rot 0 0 0
+# Scaling of this object
+sca 100 1 100
+# Translation of this object
+tra 0 0 -60
+# File of this object
+obj assets/mesh/lucy_floor.obj
+# End of file (Object)
+eof
+
+# New Object
+OBJ
+# Use this material for this object
+usemtl Wall
+# Rotation of this object
+rot -90 0 0
+# Scaling of this object
+sca 100 1 100
+# Translation of this object
+tra 0 100 -50
+# File of this object
+obj assets/mesh/lucy_wall.obj
+# End of file (Object)
+eof
+
+# New Object
+OBJ
+# Use this material for this object
+usemtl Lucy
+# Rotation of this object
+rot 0 -25 0
+# Scaling of this object
+sca 1 1 1
+# Translation of this object
+tra 0 0 0
+# File of this object
+obj assets/mesh/lucy.obj
+# End of file (Object)
+eof

@@ -1,0 +1,109 @@
+# Height
+WIDTH 512
+# Width
+HEIGHT 512
+
+# Background color
+BGC 0 0 0
+
+# Camera
+CAM
+# Field of view
+fov 40
+# Position
+pos 0 5 8
+# Target
+tar 0 0 0
+# Up vector
+up 0 1 0
+# Near clip
+nir 1
+# End of file (Camera)
+eof
+
+# Point Light Count
+PLC 1
+
+# Point Light
+PL
+# Position
+pos 0 5 3
+# Light color
+col 1 1 1
+# Linear Attenuation
+lat 0.1
+# Quadratic Attenuation
+qat 0.005
+# End of file (Light)
+eof
+
+# Material library file
+mtllib assets/materials/starter.mtl
+
+# Object count
+OBC 4
+
+# New Object
+OBJ
+# Use this material for this object
+usemtl Floor
+# Rotation of this object
+rot 0 70 0
+# Scaling of this object
+sca 100 1 100
+# Translation of this object
+tra 0 0 0
+# File of this object
+obj assets/mesh/metal_plate.obj
+# End of file (Object)
+eof
+
+# New Object
+OBJ
+# Use this material for this object
+usemtl Squirtle
+# Rotation of this object
+rot 0 0 0
+# Scaling of this object
+sca 0.5 0.5 0.5
+# Translation of this object
+tra 0 0 0
+# File of this object
+obj assets/mesh/squirtle.obj
+# End of file (Object)
+eof
+
+# New Object
+OBJ
+# Use this material for this object
+usemtl Charmander
+# Rotation of this object
+rot 0 30 0
+# Scaling of this object
+sca 0.4 0.4 0.4
+# Translation of this object
+tra 2 0 1
+# File of this object
+obj assets/mesh/charmander.obj
+# End of file (Object)
+eof
+
+# New Object
+OBJ
+# Use this material for this object
+usemtl Bulbasaur
+# Rotation of this object
+rot 0 -30 0
+# Scaling of this object
+sca 0.25 0.25 0.25
+# Translation of this object
+tra -2 0 0.25
+# File of this object
+obj assets/mesh/bulbasaur.obj
+# End of file (Object)
+eof
+
+
+
+# End of file
+EOF

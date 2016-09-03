@@ -1,0 +1,8 @@
+﻿<Window x:Class="Tarea_6.MainWindowServidor"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindowServidor" Height="350" Width="525" Name="Rigomon">
+    <Grid>
+        
+    </Grid>
+</Window>

@@ -1,0 +1,35 @@
+﻿'Tarea 6.vshost.exe' (CLR v4.0.30319: Tarea 6.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_32\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.dll'. Symbols loaded.
+'Tarea 6.vshost.exe' (CLR v4.0.30319: Tarea 6.vshost.exe): Loaded 'C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.HostingProcess.Utilities\12.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.HostingProcess.Utilities.dll'. Symbols loaded.
+'Tarea 6.vshost.exe' (CLR v4.0.30319: Tarea 6.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Windows.Forms\v4.0_4.0.0.0__b77a5c561934e089\System.Windows.Forms.dll'. Symbols loaded.
+'Tarea 6.vshost.exe' (CLR v4.0.30319: Tarea 6.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll'. Symbols loaded.
+'Tarea 6.vshost.exe' (CLR v4.0.30319: Tarea 6.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll'. Symbols loaded.
+'Tarea 6.vshost.exe' (CLR v4.0.30319: Tarea 6.vshost.exe): Loaded 'C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.HostingProcess.Utilities.Sync\12.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.HostingProcess.Utilities.Sync.dll'. Symbols loaded.
+'Tarea 6.vshost.exe' (CLR v4.0.30319: Tarea 6.vshost.exe): Loaded 'C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.Debugger.Runtime\12.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.Debugger.Runtime.dll'. 
+'Tarea 6.vshost.exe' (CLR v4.0.30319: Tarea 6.vshost.exe): Loaded 'C:\Users\Jm\Dropbox\Programacion Avanzada\Tareas\Tarea 6\Tarea 6\bin\Debug\Tarea 6.vshost.exe'. Symbols loaded.
+'Tarea 6.vshost.exe' (CLR v4.0.30319: Tarea 6.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll'. Symbols loaded.
+'Tarea 6.vshost.exe' (CLR v4.0.30319: Tarea 6.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll'. Symbols loaded.
+'Tarea 6.vshost.exe' (CLR v4.0.30319: Tarea 6.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll'. Symbols loaded.
+'Tarea 6.vshost.exe' (CLR v4.0.30319: Tarea 6.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\Microsoft.CSharp\v4.0_4.0.0.0__b03f5f7f11d50a3a\Microsoft.CSharp.dll'. Symbols loaded.
+'Tarea 6.vshost.exe' (CLR v4.0.30319: Tarea 6.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml.Linq\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.Linq.dll'. Symbols loaded.
+'Tarea 6.vshost.exe' (CLR v4.0.30319: Tarea 6.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Data.DataSetExtensions\v4.0_4.0.0.0__b77a5c561934e089\System.Data.DataSetExtensions.dll'. Symbols loaded.
+'Tarea 6.vshost.exe' (CLR v4.0.30319: Tarea 6.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xaml\v4.0_4.0.0.0__b77a5c561934e089\System.Xaml.dll'. Symbols loaded.
+'Tarea 6.vshost.exe' (CLR v4.0.30319: Tarea 6.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\WindowsBase\v4.0_4.0.0.0__31bf3856ad364e35\WindowsBase.dll'. Symbols loaded.
+'Tarea 6.vshost.exe' (CLR v4.0.30319: Tarea 6.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_32\PresentationCore\v4.0_4.0.0.0__31bf3856ad364e35\PresentationCore.dll'. Symbols loaded.
+'Tarea 6.vshost.exe' (CLR v4.0.30319: Tarea 6.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\PresentationFramework\v4.0_4.0.0.0__31bf3856ad364e35\PresentationFramework.dll'. Symbols loaded.
+The thread 0x3df0 has exited with code 259 (0x103).
+The thread 0x3d2c has exited with code 259 (0x103).
+The thread 0x473c has exited with code 259 (0x103).
+'Tarea 6.vshost.exe' (CLR v4.0.30319: Tarea 6.vshost.exe): Loaded 'C:\Users\Jm\Dropbox\Programacion Avanzada\Tareas\Tarea 6\Tarea 6\bin\Debug\Tarea 6.exe'. Symbols loaded.
+'Tarea 6.vshost.exe' (CLR v4.0.30319: Tarea 6.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll'. Symbols loaded.
+'Tarea 6.vshost.exe' (CLR v4.0.30319: Tarea 6.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\PresentationFramework.Aero\v4.0_4.0.0.0__31bf3856ad364e35\PresentationFramework.Aero.dll'. Symbols loaded.
+'Tarea 6.vshost.exe' (CLR v4.0.30319: Tarea 6.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\PresentationFramework-SystemXmlLinq\v4.0_4.0.0.0__b77a5c561934e089\PresentationFramework-SystemXmlLinq.dll'. Symbols loaded.
+'Tarea 6.vshost.exe' (CLR v4.0.30319: Tarea 6.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\PresentationFramework-SystemXml\v4.0_4.0.0.0__b77a5c561934e089\PresentationFramework-SystemXml.dll'. Symbols loaded.
+'Tarea 6.vshost.exe' (CLR v4.0.30319: Tarea 6.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\UIAutomationTypes\v4.0_4.0.0.0__31bf3856ad364e35\UIAutomationTypes.dll'. Symbols loaded.
+'Tarea 6.vshost.exe' (CLR v4.0.30319: Tarea 6.vshost.exe): Loaded 'C:\Users\Jm\Dropbox\Programacion Avanzada\Tareas\Tarea 6\Tarea 6\bin\Debug\Backend.dll'. Symbols loaded.
+A first chance exception of type 'System.Net.Sockets.SocketException' occurred in System.dll
+The thread 0x3174 has exited with code 259 (0x103).
+The thread 0x3e64 has exited with code 259 (0x103).
+The thread 0x3a30 has exited with code 259 (0x103).
+The thread 0x4164 has exited with code 259 (0x103).
+The program '[17788] Tarea 6.vshost.exe: Program Trace' has exited with code 0 (0x0).
+The program '[17788] Tarea 6.vshost.exe' has exited with code 0 (0x0).

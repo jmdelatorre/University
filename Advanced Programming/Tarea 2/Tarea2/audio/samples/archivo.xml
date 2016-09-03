@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<awusumbeatz>
+  <barList>
+    <bar loop="1" tempo="140" length="1">
+      <noteList>
+        <note i="100" pos="1" num="3" type="ride" />
+      </noteList>
+    </bar>
+  </barList>
+</awusumbeatz>

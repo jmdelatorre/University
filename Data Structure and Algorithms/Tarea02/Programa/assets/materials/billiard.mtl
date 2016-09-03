@@ -1,0 +1,32 @@
+newmtl 10-ball
+Ka 0.2 0.2 0.2
+Kd 0.8 0.8 0.8
+Ks 0 0 0
+map_Kd assets/textures/10-ball.png
+r 0.5
+
+newmtl Mirror
+Ka 0 0 0
+Kd 0 0 0
+Ks 0 0 0
+Ns 0
+r 1
+
+newmtl 8-ball
+Ka 0.2 0.2 0.2
+Kd 0.8 0.8 0.8
+Ks 0 0 0
+map_Kd assets/textures/8-ball.png
+r 0.5
+
+newmtl Green
+Ka 0.1 0.1 0.1
+Kd 0.066667 0.380392 0
+Ks 0 0 0
+Ns 0
+
+newmtl Light
+Ka 1 1 1
+Kd 1 1 1
+Ks 0 0 0
+Ns 0

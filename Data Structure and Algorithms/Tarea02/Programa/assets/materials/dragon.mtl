@@ -1,0 +1,14 @@
+newmtl Dragon
+Ka 0.1 0.1 0.1
+Kd 0 0.8 0.8
+Ks 0 1 1
+Ns 350
+r 0.3
+
+newmtl Bricks
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0.4 0.4 1
+Ns 50
+map_Kd assets/textures/brickwall.png
+map_N assets/textures/brickwall_normal.png

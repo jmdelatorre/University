@@ -1,0 +1,147 @@
+# Blender MTL File: 'None'
+# Material Count: 18
+
+newmtl Material__25
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ns 9.803922
+map_Kd assets/textures/sponza_lion.png
+# map_N  assets/textures/sponza_lion_normal.png
+
+newmtl Material__298
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ns 9.803922
+map_Kd assets/textures/sponza_background.png
+# map_N  assets/textures/sponza_background_normal.png
+
+newmtl arch
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ns 9.803922
+map_Kd assets/textures/sponza_arch.png
+# map_N assets/textures/sponza_arch_normal.png
+
+newmtl bricks
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ns 9.803922
+map_Kd assets/textures/sponza_bricks.png
+# map_N assets/textures/sponza_bricks_normal.png
+
+
+newmtl ceiling
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ns 9.803922
+map_Kd assets/textures/sponza_ceiling.png
+
+
+newmtl column_a
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ns 9.803922
+map_Kd assets/textures/sponza_column_a.png
+# map_N assets/textures/sponza_column_a_normal.png
+
+newmtl column_b
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ns 9.803922
+map_Kd assets/textures/sponza_column_b.png
+# map_N assets/textures/sponza_column_b_normal.png
+
+newmtl column_c
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ns 9.803922
+map_Kd assets/textures/sponza_column_c.png
+# map_N assets/textures/sponza_column_c_normal.png
+
+newmtl fabric_a
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ns 9.803922
+map_Kd assets/textures/sponza_fabric_red.png
+
+newmtl fabric_c
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ns 9.803922
+map_Kd assets/textures/sponza_curtain_red.png
+
+newmtl fabric_d
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ns 9.803922
+map_Kd assets/textures/sponza_fabric_blue.png
+
+
+newmtl fabric_e
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ns 9.803922
+map_Kd assets/textures/sponza_fabric_green.png
+
+newmtl fabric_f
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ns 9.803922
+map_Kd assets/textures/sponza_curtain_green.png
+
+newmtl fabric_g
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ns 9.803922
+map_Kd assets/textures/sponza_curtain_blue.png
+
+newmtl flagpole
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ns 9.803922
+map_Kd assets/textures/sponza_flagpole.png
+
+
+newmtl floor
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ns 9.803922
+map_Kd assets/textures/sponza_floor.png
+
+
+newmtl roof
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ns 9.803922
+map_Kd assets/textures/sponza_roof.png
+
+
+newmtl vase_hanging
+Ns 0
+Ka 0 0 0
+Kd 0 0 0
+Ks 0 0 0
+
+newmtl Sky
+Ka 1 1 1
+Kd 1 1 1
+Ks 0 0 0
+Ns 0
+map_Kd assets/textures/clouds.png

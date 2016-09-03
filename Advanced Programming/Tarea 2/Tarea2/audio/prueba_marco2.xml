@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<awusumbeatz>
+  <barList>
+    <bar loop="1" tempo="120" length="4">
+      <noteList>
+        <note i="100" pos="1" num="1" type="kick" />
+        <note i="100" pos="2,5" num="1" type="kick" />
+        <note i="100" pos="3" num="1" type="kick" />
+        <note i="100" pos="3,75" num="1" type="kick" />
+        <note i="100" pos="1" num="1" type="crash_high" />
+        <note i="100" pos="2" num="1" type="snare" />
+        <note i="100" pos="4" num="1" type="snare" />
+        <note i="50" pos="1,5" num="1" type="hihat_closed" />
+        <note i="100" pos="2" num="1" type="hihat_closed" />
+        <note i="50" pos="2,5" num="1" type="hihat_closed" />
+        <note i="100" pos="3" num="1" type="hihat_closed" />
+        <note i="50" pos="3,5" num="1" type="hihat_closed" />
+        <note i="100" pos="4" num="1" type="hihat_closed" />
+        <note i="100" pos="4,5" num="1" type="hihat_open" />
+      </noteList>
+    </bar>
+    <bar loop="7" tempo="120" length="4">
+      <noteList>
+        <note i="100" pos="1" num="1" type="kick" />
+        <note i="100" pos="2,5" num="1" type="kick" />
+        <note i="100" pos="3" num="1" type="kick" />
+        <note i="100" pos="3,75" num="1" type="kick" />
+        <note i="100" pos="2" num="1" type="snare" />
+        <note i="100" pos="4" num="1" type="snare" />
+        <note i="100" pos="1" num="1" type="hihat_closed" />
+        <note i="50" pos="1,5" num="1" type="hihat_closed" />
+        <note i="100" pos="2" num="1" type="hihat_closed" />
+        <note i="50" pos="2,5" num="1" type="hihat_closed" />
+        <note i="100" pos="3" num="1" type="hihat_closed" />
+        <note i="50" pos="3,5" num="1" type="hihat_closed" />
+        <note i="100" pos="4" num="1" type="hihat_closed" />
+        <note i="100" pos="4,5" num="1" type="hihat_open" />
+      </noteList>
+    </bar>
+    <bar loop="1" tempo="120" length="4">
+      <noteList>
+        <note i="100" pos="1" num="1" type="kick" />
+        <note i="100" pos="1" num="1" type="crash_high" />
+      </noteList>
+    </bar>
+  </barList>
+</awusumbeatz>

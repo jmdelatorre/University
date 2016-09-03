@@ -1,0 +1,66 @@
+newmtl Red
+Ka 0.2 0.2 0.2
+Kd 0.639 0.06 0.062
+Ks 0 0 0
+Ns 1
+
+newmtl Green
+Ka 0.2 0.2 0.2
+Kd 0.156 0.426 0.107
+Ks 0 0 0
+Ns 1
+
+newmtl Blue
+Kd 0.2 0.2 0.2
+Kd 0.156 0.126 0.507
+Ks 1 1 1
+Ns 100
+
+newmtl Yellow
+Ka 0.2 0.2 0.2
+Kd 0.656 0.626 0.107
+Ks 0.656 0.626 0.107
+Ns 50
+
+newmtl White
+Ka 0.2 0.2 0.2
+Kd 0.5 0.5 0.5
+Ks 0 0 0
+Ns 1
+
+newmtl Mirror
+Ka 0.2 0.2 0.2
+Kd 0 0 0
+Ks 0 0 0
+Ns 1
+r 0.75
+
+newmtl Amber
+Ka 0.1 0.1 0.1
+Kd 0.8 0.6 0
+Ks 1 1 1
+Ns 100
+
+newmtl Jade
+Ka 0.1 0.1 0.1
+Kd 0 0.8 0.45
+Ks 1 1 1
+Ns 100
+
+newmtl Snow
+Ka 0.1 0.1 0.1
+Kd 0.1 0.2 1
+Ks 1 1 1
+Ns 100
+
+newmtl Copper
+Ka 0.1 0.1 0.1
+Kd 0.7 0.5 0.1
+Ks 1 0.7 0.2
+Ns 10
+
+newmtl Fuchsia
+Ka 0.1 0.1 0.1
+Kd 0.7 0.2 0.8
+Ks 0.7 0.2 0.8
+Ns 500

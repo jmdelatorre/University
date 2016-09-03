@@ -1,0 +1,310 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LibreriaT3</name>
+    </assembly>
+    <members>
+        <member name="T:LibreriaT3.GraphicTile">
+            <summary>
+            Posee los metodos para generar imagenes que representen las piezas de los puzzles
+            </summary>
+        </member>
+        <member name="F:LibreriaT3.GraphicTile.samples">
+            <summary>
+            Indica cuantas muestras se deben hacer por pixel para el antialiasing. La cantidad real es el cuadrado de este numero.
+            </summary>
+        </member>
+        <member name="M:LibreriaT3.GraphicTile.GetBMP(System.Int32,LibreriaT3.Tile,System.Double)">
+            <summary>
+            Obtiene una imagen Bitmap a partir de las descripciones de sus orillas
+            </summary>
+            <param name="size">Tamaño de la imagen</param>
+            <param name="tile">Tile que contiene la informacion del tile</param>
+            <param name="thickness">Grosor de las lineas a dibujar</param>
+            <returns>Imagen que representa el Tile especificado</returns>
+        </member>
+        <member name="M:LibreriaT3.GraphicTile.DrawLine(System.Drawing.Bitmap,System.Boolean,System.Double,System.Drawing.Color)">
+            <summary>
+            Traza una linea que divide a la imagen en dos partes. Lo mezcla con lo que haya habido atrás.
+            </summary>
+            <param name="bmp">Imagen sobre la cual se dibuja</param>
+            <param name="horizontal">Si la linea va a lo largo del eje horizontal o no</param>
+            <param name="thickness">Grosor de la linea</param>
+            <param name="color">Color de la linea</param>
+        </member>
+        <member name="M:LibreriaT3.GraphicTile.DrawCircle(System.Drawing.Bitmap,System.Double,System.Double,System.Double,System.Double,System.Drawing.Color)">
+            <summary>
+            Dibuja un circulo sobre una imagen. Lo mezcla con lo que haya habido atrás.
+            </summary>
+            <param name="bmp">Imagen sobre la cual se dibuja</param>
+            <param name="centerX">Coordenada X del centro del circulo</param>
+            <param name="centerY">Coordenada Y del centro del circulo</param>
+            <param name="radius">Radio del circulo</param>
+            <param name="thickness">Grosor del circulo</param>
+            <param name="color">Color del circulo</param>
+        </member>
+        <member name="M:LibreriaT3.GraphicTile.Distance(System.Double,System.Double,System.Double,System.Double)">
+            <summary>
+            Calcula la distancia entre dos puntos
+            </summary>
+            <param name="X1">Coordenada X del punto 1</param>
+            <param name="Y1">Coordenada Y del punto 1</param>
+            <param name="X2">Coordenada X del punto 2</param>
+            <param name="Y2">Coordenada Y del punto 2</param>
+            <returns>Distancia entre ambos puntos</returns>
+        </member>
+        <member name="T:LibreriaT3.ILista`1">
+            <summary>
+             Representa una lista de un tipo genérico T.
+            </summary>
+            <typeparam name="T">Tipo del cual se quiere hacer una lista</typeparam>
+        </member>
+        <member name="M:LibreriaT3.ILista`1.Add(`0)">
+            <summary>
+            Agrega "item" al final de la lista
+            </summary>
+            <param name="item">Objeto a agregar</param>
+        </member>
+        <member name="M:LibreriaT3.ILista`1.Contains(`0)">
+            <summary>
+            Revisa si "item" está en la lista. Si está retorna true y si no retorna false.
+            </summary>
+            <param name="item">Objeto a revisar</param>
+            <returns>True si esta, false si no</returns>
+        </member>
+        <member name="M:LibreriaT3.ILista`1.Remove(`0)">
+            <summary>
+            Revisa la lista, el primer elemento igual a "item" que encuentre es eliminado
+            Retorna true si lo logra eliminar, false si no.
+            </summary>
+            <param name="item">Elemento a eliminar</param>
+            <returns>true si lo logra eliminar, false si no.</returns>
+        </member>
+        <member name="P:LibreriaT3.ILista`1.Item(System.Int32)">
+            <summary>
+            Permite acceso al elemento especificado por "index", tanto como para obtenerlo como para asignarlo.
+            </summary>
+            <param name="index">Indice dentro de la lista</param>
+            <returns>El valor almacenado en la posicion "index"</returns>
+        </member>
+        <member name="P:LibreriaT3.ILista`1.Count">
+            <summary>
+            Indica cuantos elementos contiene esta lista
+            </summary>
+        </member>
+        <member name="T:LibreriaT3.IQueue`1">
+            <summary>
+            Representa una cola de un tipo genérico T.
+            </summary>
+            <typeparam name="T">El tipo del cual es esta cola</typeparam>
+        </member>
+        <member name="M:LibreriaT3.IQueue`1.Enqueue(`0)">
+            <summary>
+            Agrega "item" al final de la cola
+            </summary>
+            <param name="item">Elemento a agregar</param>
+        </member>
+        <member name="M:LibreriaT3.IQueue`1.Dequeue">
+            <summary>
+            Entrega y elimina el primer elemento de la cola: el más antiguo.
+            </summary>
+            <returns>El primer elemento de la cola</returns>
+        </member>
+        <member name="P:LibreriaT3.IQueue`1.Count">
+            <summary>
+            Indica la cantidad de elementos que contiene la cola
+            </summary>
+        </member>
+        <member name="T:LibreriaT3.IStack`1">
+            <summary>
+            Representa una pila de un tipo genérico T
+            </summary>
+            <typeparam name="T">El tipo del cual es la pila</typeparam>
+        </member>
+        <member name="M:LibreriaT3.IStack`1.Push(`0)">
+            <summary>
+            Agrega "item" y lo pone encima de la pila
+            </summary>
+            <param name="item"></param>
+        </member>
+        <member name="M:LibreriaT3.IStack`1.Pop">
+            <summary>
+            Entrega el elemento de más encima y lo elimina de la pila.
+            El ultimo elemento que se agrego a la pila.
+            </summary>
+            <returns>El ultimo elemento que se agrego a la pila.</returns>
+        </member>
+        <member name="P:LibreriaT3.IStack`1.Count">
+            <summary>
+            Indica la cantidad de elementos apilados
+            </summary>
+        </member>
+        <member name="T:LibreriaT3.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:LibreriaT3.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:LibreriaT3.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:LibreriaT3.Properties.Resources.Stone">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="T:LibreriaT3.Puzzle">
+            <summary>
+            Contiene toda la información de un puzzle.
+            </summary>
+        </member>
+        <member name="F:LibreriaT3.Puzzle.Tiles">
+            <summary>
+            Lista de Tiles disponibles para resolver el puzzle
+            </summary>
+        </member>
+        <member name="F:LibreriaT3.Puzzle.Fixed">
+            <summary>
+            Indica las posiciones y los tiles de las celdas fijas
+            </summary>
+        </member>
+        <member name="F:LibreriaT3.Puzzle.Imagenes">
+            <summary>
+            Asocia un tile y su código con una imagen
+            </summary>
+        </member>
+        <member name="F:LibreriaT3.Puzzle.TilesGenerated">
+            <summary>
+            Indica si ya se generaron las imagenes de las tiles (para no generarlas dos veces)
+            </summary>
+        </member>
+        <member name="M:LibreriaT3.Puzzle.GetTiles(LibreriaT3.ILista{LibreriaT3.Tile})">
+            <summary>
+            Agrega las baldosas de este puzzle a la lista entregada.
+            </summary>
+            <param name="lista">Lista del alumno que implementa ILista</param>
+        </member>
+        <member name="M:LibreriaT3.Puzzle.GetFixed(LibreriaT3.ILista{System.Tuple{System.Int32,System.Int32,LibreriaT3.Tile}})">
+            <summary>
+            Carga en la lista entegada los pares (Posición,Tile) para las celdas fijas.
+            </summary>
+            <param name="lista">Lista del alumno que implementa ILista</param>
+        </member>
+        <member name="M:LibreriaT3.Puzzle.GetRotated(System.Drawing.Bitmap,System.Int32)">
+            <summary>
+            Obtiene una imagen girada en los grados deseados
+            </summary>
+            <param name="bmp">Imagen a girar</param>
+            <param name="degrees">Cantidad de grados (Multiplo de 90)</param>
+            <returns>Imagen rotada</returns>
+        </member>
+        <member name="M:LibreriaT3.Puzzle.PrintTiles">
+            <summary>
+            Imprime las tiles correspondientes a este puzzle, sin rotacion.
+            </summary>
+        </member>
+        <member name="M:LibreriaT3.Puzzle.Print(LibreriaT3.ILista{System.Tuple{System.Int32,System.Int32,LibreriaT3.Tile}},System.String)">
+            <summary>
+            Imprime en una imagen la lista de tiles entregados en las posiciones dadas.
+            Para poder comparar el puzzle con la solucion de manera visual,
+            se imprime además una imagen que contiene solo los tiles fijos.
+            </summary>
+            <param name="lista">Lista de los tiles y su posición en la imagen</param>
+            <param name="Filename">Nombre del archivo destino</param>
+        </member>
+        <member name="M:LibreriaT3.Puzzle.GenerateTiles">
+            <summary>
+            Genera una imagen para cada Tile de la lista.
+            </summary>
+        </member>
+        <member name="M:LibreriaT3.Puzzle.Clone">
+            <summary>
+            Entrega una copia del puzzle actual.
+            </summary>
+            <returns>Una copia exacta del puzzle actual</returns>
+        </member>
+        <member name="P:LibreriaT3.Puzzle.Background">
+            <summary>
+            La imagen de fondo sobre la cual se dibujan las tiles del puzzle. Modificalo si quieres cambiar el fondo.
+            </summary>
+        </member>
+        <member name="P:LibreriaT3.Puzzle.Width">
+            <summary>
+            Ancho: Cuantas columnas tiene el puzzle.
+            </summary>
+        </member>
+        <member name="P:LibreriaT3.Puzzle.Height">
+            <summary>
+            Alto: Cuantas filas tiene el puzzle.
+            </summary>
+        </member>
+        <member name="P:LibreriaT3.Puzzle.TileSize">
+            <summary>
+            Indica el tamaño de los tiles, en pixeles, a la hora de generar la imagen resultado. 
+            Modificalo si quieres cambiar el tamaño de las imágenes resultado y cuanto se demora su generación. 
+            </summary>
+        </member>
+        <member name="T:LibreriaT3.Tile">
+            <summary>
+            Representa un cuadrado cruzado por cables de colores, indicando de que color es el cable que llega a Right, Top, Left y Bottom
+            </summary>
+        </member>
+        <member name="M:LibreriaT3.Tile.#ctor(System.Int32)">
+            <summary>
+            Genera un nuevo tile en blanco con el ID especificado
+            </summary>
+            <param name="ID">Identificador del Tile</param>
+        </member>
+        <member name="M:LibreriaT3.Tile.Rotate">
+            <summary>
+            Rota el tile actual en el sentido de las manecillas del reloj, generando un nuevo Tile. (No modifica el Tile original)
+            Este metodo se encarga de reasignar los valores asociados a cada lado producto de una rotación.
+            </summary>
+            <returns>El tile actual rotado en 90° en sentido de las manecillas del reloj</returns>
+        </member>
+        <member name="M:LibreriaT3.Tile.Equals(System.Object)">
+            <summary>
+            Compara si este objeto es igual a otro. Ignora ID y rotación, solo compara colores asociados.
+            </summary>
+            <param name="tile">El otro objeto. Solo los Tile son válidos</param>
+            <returns>Si ambos tiles representan el mismo. Ignora ID y rotación</returns>
+        </member>
+        <member name="P:LibreriaT3.Tile.Right">
+            <summary>
+            Indica el color asociado al lado derecho.
+            </summary>
+        </member>
+        <member name="P:LibreriaT3.Tile.Top">
+            <summary>
+            Indica el color asociado al lado superior.
+            </summary>
+        </member>
+        <member name="P:LibreriaT3.Tile.Left">
+            <summary>
+            Indica el color asociado al lado  izquierdo.
+            </summary>
+        </member>
+        <member name="P:LibreriaT3.Tile.Bottom">
+            <summary>
+            Indica el color asociado al lado inferior.
+            </summary>
+        </member>
+        <member name="P:LibreriaT3.Tile.Rotation">
+            <summary>
+            Indica la rotacion de este Tile respecto al original, en multiplos de 90º
+            </summary>
+        </member>
+        <member name="P:LibreriaT3.Tile.ID">
+            <summary>
+            Indica el código de este tile, para asociarlo a una imagen
+            </summary>
+        </member>
+    </members>
+</doc>

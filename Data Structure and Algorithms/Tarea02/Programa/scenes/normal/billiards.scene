@@ -1,0 +1,142 @@
+
+# Height
+WIDTH 512
+# Width
+HEIGHT 512
+
+# Background color
+BGC 0 0 0
+
+# Camera
+CAM
+# Field of view
+fov 40
+# Position
+pos -5 2 4
+# Target
+tar 0 0 0
+# Up vector
+up 0 1 0
+# Near clip
+nir 1
+# End of file (Camera)
+eof
+
+# Point Light Count
+PLC 4
+
+# Point Light
+PL
+# Position
+pos 1 5 3
+# Light color
+col 0.25 0.25 0.25
+# Atenuacion lineal
+lat 0.1
+# End of file (Light)
+eof
+
+# Point Light
+PL
+# Position
+pos 3 5 3
+# Light color
+col 0.25 0.25 0.25
+# Atenuacion lineal
+lat 0.1
+# End of file (Light)
+eof
+
+# Point Light
+PL
+# Position
+pos 1 3 5
+# Light color
+col 0.25 0.25 0.25
+# Atenuacion lineal
+lat 0.1
+# End of file (Light)
+eof
+
+# Point Light
+PL
+# Position
+pos 3 3 5
+# Light color
+col 0.25 0.25 0.25
+# Atenuacion lineal
+lat 0.1
+# End of file (Light)
+eof
+
+# Material library file
+mtllib assets/materials/billiard.mtl
+
+# Object count
+OBC 4
+
+# New Object
+OBJ
+# Use this material for this object
+usemtl Green
+# Rotation of this object
+rot 0 0 0
+# Scaling of this object
+sca 100 1 100
+# Translation of this object
+tra 0 -1 0
+# File of this object
+obj assets/mesh/plane_y.obj
+# End of file (Object)
+eof
+
+# New Object
+OBJ
+# Use this material for this object
+usemtl Light
+# Rotation of this object
+rot -45 0 0
+# Scaling of this object
+sca 4 1 4
+# Translation of this object
+tra 2 8 5
+# File of this object
+obj assets/mesh/plane_y.obj
+# End of file (Object)
+eof
+
+# New Object
+OBJ
+# Use this material for this object
+usemtl 10-ball
+# Rotation of this object
+rot 20 20 10
+# Scaling of this object
+sca 1 1 1
+# Translation of this object
+tra -0.3 0 -0.3
+# File of this object
+obj assets/mesh/uvsphere.obj
+
+# End of file (Object)
+eof
+
+# New Object
+OBJ
+# Use this material for this object
+usemtl 8-ball
+# Rotation of this object
+rot 20 30 0
+# Scaling of this object
+sca 1 1 1
+# Translation of this object
+tra 1.7 0 0.2
+# File of this object
+obj assets/mesh/uvsphere.obj
+# End of file (Object)
+eof
+
+
+
+# End of file
+EOF

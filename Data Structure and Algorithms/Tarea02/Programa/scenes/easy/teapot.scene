@@ -1,0 +1,57 @@
+# Test scene
+
+# Background color
+BGC 0.6 0.6 1
+
+# Camera
+CAM
+# Field of view
+fov 60
+# Position
+pos 0 20 50
+# Target
+tar 0 0 0
+# Up vector
+up 0 1 0
+# Near clip
+nir 10
+# End of file (Camera)
+eof
+
+# Point Light Count
+PLC 1
+
+# Point Light
+PL
+# Position
+pos 10 30 3
+# Light color
+col 1 1 1
+# End of file (Light)
+eof
+
+# End of file
+# EOF
+
+
+# Material library file
+mtllib assets/materials/utah-teapot.mtl
+
+# Object count
+OBC 1
+
+
+# New Object
+OBJ
+# Use this material for this object
+usemtl Clear_Coat_Plastic
+# Rotation of this object
+rot 0 20 0
+# Scaling of this object
+sca 1 1 1
+# Translation of this object
+tra -3 0 0
+# File of this object
+obj assets/mesh/utah-teapot.obj
+# End of file (Object)
+eof

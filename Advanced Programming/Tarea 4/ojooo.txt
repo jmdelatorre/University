@@ -1,0 +1,15 @@
+TODO (En Orden):
+Salto ( mas o menos)
+Animaciones Completa (falta movimiento worm...)
+Arreglar Mapa
+arreglar posiciones
+Turno (listo)
+Quien gano
+Sonidos
+Boton Pasar turno (listo)
+Ultimo suspiro (listo)
+Editor de mapas
+Mostrar Daños
+20 nombres
+
+Mejorar usando un Queue

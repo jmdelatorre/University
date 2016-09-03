@@ -1,0 +1,9 @@
+# Blender MTL File: 'None'
+# Material Count: 1
+
+newmtl Clear_Coat_Plastic
+Ns 96.078431
+Ka 0.2 0.2 0.55
+Kd 0.727575 0.727575 0.727575
+Ks 0.139216 0.139216 0.139216
+# r 0.1

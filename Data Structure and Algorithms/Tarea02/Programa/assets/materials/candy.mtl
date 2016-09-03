@@ -1,0 +1,42 @@
+newmtl Mirror
+Ka 0 0 0
+Kd 0 0 0
+Ks 0 0 0
+Ns 0
+r 0.8
+
+newmtl Red
+Ka 0.3 0.3 0.3
+Kd 1 0 0
+Ks 1 1 1
+Ns 500
+
+newmtl Green
+Ka 0.3 0.3 0.3
+Kd 0 1 0
+Ks 1 1 1
+Ns 500
+
+newmtl Blue
+Ka 0.3 0.3 0.3
+Kd 0 0 1
+Ks 1 1 1
+Ns 500
+
+newmtl Orange
+Ka 0.3 0.3 0.3
+Kd 1 0.6 0
+Ks 1 1 1
+Ns 500
+
+newmtl Purple
+Ka 0.3 0.3 0.3
+Kd 0.6 0 1
+Ks 1 1 1
+Ns 500
+
+newmtl Yellow
+Ka 0.3 0.3 0.3
+Kd 1 1 0
+Ks 1 1 1
+Ns 500

@@ -1,0 +1,23 @@
+newmtl Amber
+Ka 0.1 0.1 0.1
+Kd 0.8 0.6 0
+Ks 1 1 1
+Ns 100
+
+newmtl Jade
+Ka 0.1 0.1 0.1
+Kd 0 0.8 0.45
+Ks 1 1 1
+Ns 100
+
+newmtl Snow
+Ka 0.1 0.1 0.1
+Kd 0.1 0.2 1
+Ks 1 1 1
+Ns 100
+
+newmtl Copper
+Ka 0.1 0.1 0.1
+Kd 0.7 0.5 0.1
+Ks 1 0.7 0.2
+Ns 10

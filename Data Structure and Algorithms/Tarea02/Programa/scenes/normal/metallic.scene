@@ -1,0 +1,162 @@
+# Height
+WIDTH 512
+# Width
+HEIGHT 512
+
+# Background color
+BGC 0 0 0
+
+# Camera
+CAM
+# Field of view
+fov 50
+# Position
+pos -1 2 6
+# Target
+tar 0 0 0
+# Up vector
+up 0 1 0
+# Near clip
+nir 1
+# End of file (Camera)
+eof
+
+# Point Light Count
+PLC 2
+
+# Point Light
+PL
+# Position
+pos 2 10 3
+# Light color
+col 1 1 1
+# Quadratic attenuation
+lat 0.05
+# End of file (Light)
+eof
+
+# Point Light
+PL
+# Position
+pos -2 10 -3
+# Light color
+col 0.7 0.8 1
+# Quadratic attenuation
+lat 0.05
+# End of file (Light)
+eof
+
+# Material library file
+mtllib assets/materials/metal.mtl
+
+# Object count
+OBC 7
+
+# New Object
+OBJ
+# Use this material for this object
+usemtl Plate
+# Rotation of this object
+rot 0 20 0
+# Scaling of this object
+sca 100 1 100
+# Translation of this object
+tra 0 0 0
+# File of this object
+obj assets/mesh/metal_plate.obj
+# End of file (Object)
+eof
+
+# New Object: Central sphere
+OBJ
+# Use this material for this object
+usemtl Metal
+# Rotation of this object
+rot 0 0 0
+# Scaling of this object
+sca 1 1 1
+# Translation of this object
+tra 0 1 0
+# File of this object
+obj assets/mesh/sphere_ico.obj
+# End of file (Object)
+eof
+
+# New Object: Sphere 1. Angle 0
+OBJ
+# Use this material for this object
+usemtl Metal
+# Rotation of this object
+rot 0 0 0
+# Scaling of this object
+sca 0.5 0.5 0.5
+# Translation of this object
+tra 0 0.5 2
+# File of this object
+obj assets/mesh/sphere_ico.obj
+# End of file (Object)
+eof
+
+# New Object: Sphere 2. Angle 72
+OBJ
+# Use this material for this object
+usemtl Metal
+# Rotation of this object
+rot 0 0 0
+# Scaling of this object
+sca 0.5 0.5 0.5
+# Translation of this object
+tra 1.902112 0.5 0.618032
+# File of this object
+obj assets/mesh/sphere_ico.obj
+# End of file (Object)
+eof
+
+# New Object. Sphere 3. Angle 144
+OBJ
+# Use this material for this object
+usemtl Metal
+# Rotation of this object
+rot 0 0 0
+# Scaling of this object
+sca 0.5 0.5 0.5
+# Translation of this object
+tra 1.17557 0.5 -1.618032
+# File of this object
+obj assets/mesh/sphere_ico.obj
+# End of file (Object)
+eof
+
+# New Object. Sphere 4. Angle 216
+OBJ
+# Use this material for this object
+usemtl Metal
+# Rotation of this object
+rot 0 0 0
+# Scaling of this object
+sca 0.5 0.5 0.5
+# Translation of this object
+tra -1.17557 0.5 -1.618032
+# File of this object
+obj assets/mesh/sphere_ico.obj
+# End of file (Object)
+eof
+
+# New Object. Sphere 5. Angle 288
+OBJ
+# Use this material for this object
+usemtl Metal
+# Rotation of this object
+rot 0 0 0
+# Scaling of this object
+sca 0.5 0.5 0.5
+# Translation of this object
+tra -1.902112 0.5 0.618032
+# File of this object
+obj assets/mesh/sphere_ico.obj
+# End of file (Object)
+eof
+
+
+# End of file
+EOF

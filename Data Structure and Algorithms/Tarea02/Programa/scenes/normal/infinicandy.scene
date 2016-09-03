@@ -1,0 +1,148 @@
+# Height
+WIDTH 512
+# Width
+HEIGHT 512
+
+# Background color
+BGC 0 0 0
+
+# Camera
+CAM
+# Field of view
+fov 50
+# Position
+pos 5 -5 5
+# Target
+tar 2 2 -2
+# Up vector
+up 0 0 1
+# Near clip
+nir 1
+# End of file (Camera)
+eof
+
+# Point Light Count
+PLC 1
+
+# Point Light
+PL
+# Position
+pos 0 0 0
+# Light color
+col 1 1 1
+# End of file (Light)
+eof
+
+# Material library file
+mtllib assets/materials/candy.mtl
+
+# Object count
+OBC 7
+
+# New Object
+OBJ
+# Use this material for this object
+usemtl Mirror
+# Rotation of this object
+rot 0 0 0
+# Scaling of this object
+sca 10 10 10
+# Translation of this object
+tra 0 0 0
+# File of this object
+obj assets/mesh/nordehasoci.obj
+# End of file (Object)
+eof
+
+# New Object
+OBJ
+# Use this material for this object
+usemtl Red
+# Rotation of this object
+rot 0 0 30
+# Scaling of this object
+sca 0.5 0.5 0.5
+# Translation of this object
+tra 1 0 0
+# File of this object
+obj assets/mesh/icosahedron.obj
+# End of file (Object)
+eof
+
+# New Object
+OBJ
+# Use this material for this object
+usemtl Green
+# Rotation of this object
+rot 0 0 -30
+# Scaling of this object
+sca 0.5 0.5 0.5
+# Translation of this object
+tra -1 0 0
+# File of this object
+obj assets/mesh/icosahedron.obj
+# End of file (Object)
+eof
+
+# New Object
+OBJ
+# Use this material for this object
+usemtl Blue
+# Rotation of this object
+rot 30 0 0
+# Scaling of this object
+sca 0.5 0.5 0.5
+# Translation of this object
+tra 0 1 0
+# File of this object
+obj assets/mesh/icosahedron.obj
+# End of file (Object)
+eof
+
+# New Object
+OBJ
+# Use this material for this object
+usemtl Orange
+# Rotation of this object
+rot -30 0 0
+# Scaling of this object
+sca 0.5 0.5 0.5
+# Translation of this object
+tra 0 -1 0
+# File of this object
+obj assets/mesh/icosahedron.obj
+# End of file (Object)
+eof
+
+# New Object
+OBJ
+# Use this material for this object
+usemtl Yellow
+# Rotation of this object
+rot 0 30 0
+# Scaling of this object
+sca 0.5 0.5 0.5
+# Translation of this object
+tra 0 0 1
+# File of this object
+obj assets/mesh/icosahedron.obj
+# End of file (Object)
+eof
+
+# New Object
+OBJ
+# Use this material for this object
+usemtl Purple
+# Rotation of this object
+rot 0 -30 0
+# Scaling of this object
+sca 0.5 0.5 0.5
+# Translation of this object
+tra 0 0 -1
+# File of this object
+obj assets/mesh/icosahedron.obj
+# End of file (Object)
+eof
+
+# End of file
+EOF

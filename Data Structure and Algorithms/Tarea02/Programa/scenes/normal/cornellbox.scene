@@ -1,0 +1,138 @@
+
+# Height
+WIDTH 512
+# Width
+HEIGHT 512
+
+# Background color
+BGC 0 0 0
+
+# Camera
+CAM
+# Field of view
+fov 40
+# Position
+pos 0 0 1024
+# Target
+tar 0 0 0
+# Up vector
+up 0 1 0
+# Near clip
+nir 1
+# End of file (Camera)
+eof
+
+# Point Light Count
+PLC 3
+
+# Point Light
+PL
+# Position
+pos 0 250 0
+# Light color
+col 0.4 0.35 0.3
+# End of file (Light)
+eof
+
+# Point Light
+PL
+# Position
+pos 100 0 200
+# Light color
+col 0.1 0.3 0.2
+# End of file (Light)
+eof
+
+# Point Light
+PL
+# Position
+pos 0 0 1024
+# Light color
+col 0.5 0.5 0.7
+# End of file (Light)
+eof
+
+# Material library file
+mtllib assets/materials/cornellbox.mtl
+
+# Object count
+OBC 5
+
+# New Object
+OBJ
+# Use this material for this object
+usemtl White
+# Rotation of this object
+rot 0 0 0
+# Scaling of this object
+sca 256 256 256
+# Translation of this object
+tra 0 0 0
+# File of this object
+obj assets/mesh/cornellbox.obj
+# End of file (Object)
+eof
+
+# New Object
+OBJ
+# Use this material for this object
+usemtl Blue
+# Rotation of this object
+rot 0 0 0
+# Scaling of this object
+sca 114 114 114
+# Translation of this object
+tra -96 -142 -84
+# File of this object
+obj assets/mesh/sphere_ico.obj
+# End of file (Object)
+eof
+
+# New Object
+OBJ
+# Use this material for this object
+usemtl Yellow
+# Rotation of this object
+rot 0 0 0
+# Scaling of this object
+sca 96 96 96
+# Translation of this object
+tra 148 -160 96
+# File of this object
+obj assets/mesh/sphere_ico.obj
+# End of file (Object)
+eof
+
+
+# New Object
+OBJ
+# Use this material for this object
+usemtl Jade
+# Rotation of this object
+rot 0 0 0
+# Scaling of this object
+sca 96 96 96
+# Translation of this object
+tra -148 160 96
+# File of this object
+obj assets/mesh/sphere_ico.obj
+# End of file (Object)
+eof
+
+# New Object
+OBJ
+# Use this material for this object
+usemtl Fuchsia
+# Rotation of this object
+rot 0 0 0
+# Scaling of this object
+sca 96 96 96
+# Translation of this object
+tra 148 160 -96
+# File of this object
+obj assets/mesh/sphere_ico.obj
+# End of file (Object)
+eof
+
+# End of file
+EOF
